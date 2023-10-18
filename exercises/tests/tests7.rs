@@ -43,7 +43,6 @@ mod tests {
     use super::*;
 
     #[test]
-    #[should_panic]
     fn test_success() {
         let timestamp = std::time::SystemTime::now()
             .duration_since(std::time::UNIX_EPOCH)
